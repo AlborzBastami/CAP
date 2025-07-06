@@ -1,9 +1,13 @@
 # split_xml_chunks.py
 from lxml import etree
 
+path1 = "e:\\OneDrive\\MHH\\Eigene Dateien MHH\\CAP Studie\\GitHub CAP\\CAP\\Alt\\proj_PROJ2_Dev_20250705-1958_Cereb_Flui_Analy_in_Psych_CAP_.xml"
+path2 = "e:\\OneDrive\\MHH\\Eigene Dateien MHH\\CAP Studie\\GitHub CAP\\CAP\\Ziel\\proj_CAP_Dev_20250705-2314_Cereb_Flui_Analy_in_Psych_CAP.xml"
+
+
 def chunk_xml(input_path: str, prefix: str,
               root_tag: str, record_tag: str,
-              chunk_size: int = 10000):
+              chunk_size: int = 200000):
     """
     Liest input_path mit iterparse zeilenweise
     und schreibt validierte Teil-XMLs mit je chunk_size records:
@@ -31,6 +35,5 @@ def chunk_xml(input_path: str, prefix: str,
 
 if __name__ == "__main__":
     # Beispielaufruf
-    chunk_xml("proj_PROJ2_Dev_20250705-1958_Cereb_Flui_Analy_in_Psych_CAP_.xml", "file1_chunk", "root", "item")
-    chunk_xml("proj_CAP_Dev_20250705-2314_Cereb_Flui_Analy_in_Psych_CAP.xml", "file2_chunk", "root", "item")
-# split_xml_chunks.py
+    chunk_xml(path1, "file1_chunk", "root", "item")
+    chunk_xml(path2, "file2_chunk", "root", "item")
