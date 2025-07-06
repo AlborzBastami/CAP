@@ -31,6 +31,6 @@ def chunk_xml(input_path: str, prefix: str,
 
 if __name__ == "__main__":
     # Beispielaufruf
-    chunk_xml("file1.xml", "file1_chunk", "root", "item")
-    chunk_xml("file2.xml", "file2_chunk", "root", "item")
+    chunk_xml("proj_PROJ2_Dev_20250705-1958_Cereb_Flui_Analy_in_Psych_CAP_.xml", "file1_chunk", "root", "item")
+    chunk_xml("proj_CAP_Dev_20250705-2314_Cereb_Flui_Analy_in_Psych_CAP.xml", "file2_chunk", "root", "item")
 # split_xml_chunks.py
