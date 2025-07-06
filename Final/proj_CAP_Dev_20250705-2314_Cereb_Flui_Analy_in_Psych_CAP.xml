@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dict count="15">
+<key>
+<string>versionnumber</string>
+</key>
+<value>
+<integer>0</integer>
+</value>
+<key>
+<string>projectname</string>
+</key>
+<value>
+<string>Cerebrospinal Fluid Analysis in Psychiatry - CAP</string>
+</value>
+<key>
+<string>path</string>
+</key>
+<value>
+<string>/opt/Apple/Local/Library/WebObjects/Applications/STS04/FormBuilder.woa</string>
+</value>
+<key>
+<string>host</string>
+</key>
+<value>
+<string>secutrial.mh-hannover.de</string>
+</value>
+<key>
+<string>application_version</string>
+</key>
+<value>
+<string>6.8.0.10c</string>
+</value>
+<key>
+<string>versionstatus</string>
+</key>
+<value>
+<string>Development</string>
+</value>
+<key>
+<string>application</string>
+</key>
+<value>
+<string>STS04-setup-FormBuilder</string>
+</value>
+<key>
+<string>participant</string>
+</key>
+<value>
+<string>Alborz Bastami</string>
+</value>
+<key>
+<string>modelname</string>
+</key>
+<value>
+<string>CAP</string>
+</value>
+<key>
+<string>lookupValues</string>
+</key>
+<value>
+<dict count="0"/>
+</value>
+<key>
+<string>db_version</string>
+</key>
+<value>
+<integer>15</integer>
+</value>
+<key>
+<string>export_time</string>
+</key>
+<value>
+<timestamp>2025-07-05 23:14:16 Europe/Berlin</timestamp>
+</value>
+<key>
+<string>project</string>
+</key>
+<value>
+<object id="1" entity="Project">
+<property name="actionmessageArray">
+<array count="0"/>
+</property>
+<property name="aedisablefollowup">
+<null/>
+</property>
+<property name="aedisplay">
+<null/>
+</property>
+<property name="aeextsource">
+<null/>
+</property>
+<property name="aehidedates">
+<null/>
+</property>
+<property name="aeshowid">
+<null/>
+</property>
+<property name="aidformat">
+<null/>
+</property>
+<property name="aidformatmode">
+<null/>
+</property>
+<property name="allowunblind">
+<null/>
+</property>
+<property name="askae">
+<null/>
+</property>
+<property name="automaticaidmode">
+<null/>
+</property>
+<property name="autoopenfirstform">
+<integer>0</integer>
+</property>
+<property name="commenton">
+<string>2</string>
+</property>
+<property name="confirmformleave">
+<null/>
+</property>
+<property name="confirmvisitdateoffset">
+<null/>
+</property>
+<property name="customerschema">
+<null/>
+</property>
+<property name="defaultdocs">
+<null/>
+</property>
+<property name="displayformicon">
+<integer>0</integer>
+</property>
+<property name="displayvisitplan">
+<string>0</string>
+</property>
+<property name="downloadArray">
+<array count="0"/>
+</property>
+<property name="dvnotification">
+<null/>
+</property>
+<property name="dvreason">
+<null/>
+</property>
+<property name="dynamicprojectversion">
+<null/>
+</property>
+<property name="editnextform">
+<integer>1</integer>
+</property>
+<property name="esigactioncomments">
+<null/>
+</property>
+<property name="esigactioncorrection">
+<null/>
+</property>
+<property name="esigactiondde">
+<null/>
+</property>
+<property name="esigactiondec">
+<null/>
+</property>
+<property name="esigactiondv">
+<null/>
+</property>
+<property name="esigactionfreeze">
+<null/>
+</property>
+<property name="esigactionmodify">
+<null/>
+</property>
+<property name="esigactionquery">
+<null/>
+</property>
+<property name="esigactionrevalidate">
+<null/>
+</property>
+<property name="esigactionreviewa">
+<null/>
+</property>
+<property name="esigactionreviewb">
+<null/>
+</property>
+<property name="esigactionsdv">
+<null/>
+</property>
+<property name="esignature">
+<string>0</string>
+</property>
+<property name="externalpatientedit">
+<null/>
+</property>
+<property name="externalpatientsearch">
+<null/>
+</property>
+<property name="fhirprojectArray">
+<array count="0"/>
+</property>
+<property name="flexcvpdependsfstatus">
+<null/>
+</property>
+<property name="formfamilyArray">
+<array count="0"/>
+</property>
+<property name="freeze">
+<string>2</string>
+</property>
+<property name="fvalueArray">
+<array count="0"/>
+</property>
+<property name="ignoreaedate">
+<integer>0</integer>
+</property>
+<property name="ignoreunscheduleddate">
+<null/>
+</property>
+<property name="ignorevisitdate">
+<integer>0</integer>
+</property>
+<property name="importconfigArray">
+<array count="0"/>
+</property>
+<property name="includecorrection">
+<string>0</string>
+</property>
+<property name="includedde">
+<null/>
+</property>
+<property name="includedtm">
+<null/>
+</property>
+<property name="includedv">
+<null/>
+</property>
+<property name="includeentrycomplete">
+<string>0</string>
+</property>
+<property name="includemiv">
+<string>0</string>
+</property>
+<property name="includemivoptions">
+<null/>
+</property>
+<property name="includepatientdelete">
+<integer>1</integer>
+</property>
+<property name="includesdv">
+<string>0</string>
+</property>
+<property name="initaedate">
+<null/>
+</property>
+<property name="initfirstvisitdate">
+<null/>
+</property>
+<property name="initfreevisitdate">
+<null/>
+</property>
+<property name="logintokenforunsavedforms">
+<null/>
+</property>
+<property name="logintokenoption">
+<null/>
+</property>
+<property name="logintokenreusable">
+<null/>
+</property>
+<property name="logintokenvalidityunit">
+<null/>
+</property>
+<property name="logintokenvalidmax">
+<null/>
+</property>
+<property name="logintokenvalidmin">
+<null/>
+</property>
+<property name="lookupdescriptionArray">
+<array count="0"/>
+</property>
+<property name="maxvisit">
+<null/>
+</property>
+<property name="maxvisitdateoffset">
+<null/>
+</property>
+<property name="minvisit">
+<null/>
+</property>
+<property name="minvisitdateoffset">
+<null/>
+</property>
+<property name="notifications">
+<null/>
+</property>
+<property name="patientletterArray">
+<array count="0"/>
+</property>
+<property name="patientloginoptions">
+<null/>
+</property>
+<property name="patientloginurl">
+<null/>
+</property>
+<property name="projectappearanceArray">
+<array count="0"/>
+</property>
+<property name="projectformArray">
+<array count="0"/>
+</property>
+<property name="projectlabelArray">
+<array count="0"/>
+</property>
+<property name="projectmodeltime">
+<timestamp>2023-11-15 13:56:43 Europe/Berlin</timestamp>
+</property>
+<property name="projectname">
+<string>Cerebrospinal Fluid Analysis in Psychiatry - CAP</string>
+</property>
+<property name="projectsort">
+<integer>0</integer>
+</property>
+<property name="projecttranslationArray">
+<array count="0"/>
+</property>
+<property name="projecttype">
+<integer>0</integer>
+</property>
+<property name="pseudonymisation">
+<string>0</string>
+</property>
+<property name="pseudonymperstudy">
+<null/>
+</property>
+<property name="queryon">
+<string>2</string>
+</property>
+<property name="randombase">
+<string>0</string>
+</property>
+<property name="randomblinded">
+<null/>
+</property>
+<property name="randomgroupa">
+<null/>
+</property>
+<property name="randomgroupb">
+<null/>
+</property>
+<property name="randomizationenabled">
+<string>0</string>
+</property>
+<property name="region">
+<string>0</string>
+</property>
+<property name="release">
+<null/>
+</property>
+<property name="releasereason">
+<null/>
+</property>
+<property name="releaseuser">
+<null/>
+</property>
+<property name="reportArray">
+<array count="0"/>
+</property>
+<property name="ruleidmax">
+<null/>
+</property>
+<property name="saeworkflow">
+<null/>
+</property>
+<property name="sdvreset">
+<null/>
+</property>
+<property name="showatcolnames">
+<null/>
+</property>
+<property name="showcompleteat">
+<string>2</string>
+</property>
+<property name="showvisitfirstdate">
+<integer>1</integer>
+</property>
+<property name="showvisitplandate">
+<integer>1</integer>
+</property>
+<property name="signofflevels">
+<null/>
+</property>
+<property name="signoffsumtype">
+<null/>
+</property>
+<property name="statisticArray">
+<array count="0"/>
+</property>
+<property name="testArray">
+<array count="0"/>
+</property>
+<property name="useaidcentreprefix">
+<null/>
+</property>
+<property name="useaidprojectprefix">
+<null/>
+</property>
+<property name="useautomaticquery">
+<null/>
+</property>
+<property name="usemultiplecentres">
+<null/>
+</property>
+<property name="usepatientaid">
+<string>0</string>
+</property>
+<property name="usepatientlogin">
+<null/>
+</property>
+<property name="usepatientloginmail">
+<null/>
+</property>
+<property name="usepatientlogintoken">
+<null/>
+</property>
+<property name="usequerywithdrawal">
+<null/>
+</property>
+<property name="validationbutton">
+<null/>
+</property>
+<property name="validationcheckbox">
+<string>1</string>
+</property>
+<property name="validationstate">
+<string>0</string>
+</property>
+<property name="versionlabel">
+<null/>
+</property>
+<property name="versionno">
+<null/>
+</property>
+<property name="versionstatus">
+<string>Development</string>
+</property>
+<property name="versiontime">
+<timestamp>2023-11-15 13:56:51 Europe/Berlin</timestamp>
+</property>
+<property name="versiontimelanguage">
+<null/>
+</property>
+<property name="versiontimevisitarm">
+<null/>
+</property>
+<property name="versiontimevisitform">
+<null/>
+</property>
+<property name="visitArray">
+<array count="0"/>
+</property>
+<property name="visitgroupArray">
+<array count="0"/>
+</property>
+<property name="visitplanarmArray">
+<array count="0"/>
+</property>
+<property name="visitsbyrights">
+<string>0</string>
+</property>
+</object>
+</value>
+<key>
+<string>versionlabel</string>
+</key>
+<value>
+<string>15.11.2023 - 13:56:51 (MEZ)</string>
+</value>
+<key>
+<string>dbprefix</string>
+</key>
+<value>
+<string>PSY2</string>
+</value>
+</dict>
